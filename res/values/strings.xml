@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">CrossProfileProvider</string>
+    <string name="root_crossprofile">Cross Profile</string>
+</resources>

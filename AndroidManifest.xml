@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.calyxos.providers.crossprofile">
+
+<!--    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>-->
+
+    <application
+        android:allowBackup="false"
+        android:label="@string/app_name">
+
+        <provider
+            android:name="CrossProfileProvider"
+            android:authorities="org.calyxos.providers.crossprofile.documents"
+            android:grantUriPermissions="true"
+            android:multiprocess="false"
+            android:exported="true"
+            android:permission="android.permission.MANAGE_DOCUMENTS">
+            <intent-filter>
+                <action android:name="android.content.action.DOCUMENTS_PROVIDER" />
+            </intent-filter>
+        </provider>
+    </application>
+</manifest>
