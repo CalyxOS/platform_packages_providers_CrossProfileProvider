@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c3ea3284_328c2da7",
+        "filename": ".gitreview",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-09T19:01:08Z",
+      "side": 1,
+      "message": "Should move this to it\u0027s own commit, upload it via \u0027git-review\u0027 to make sure it works and then merge that.",
+      "revId": "8ec5a50509a96f3b27adfbaccaed25d5ecc85b16",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "82be7166_25f66f07",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-06-09T19:01:08Z",
+      "side": 1,
+      "message": "Minor nit for consistency with other repos.",
+      "revId": "8ec5a50509a96f3b27adfbaccaed25d5ecc85b16",
+      "serverId": "35266860-6252-469c-a67d-185064479fc0"
+    }
+  ]
+}
