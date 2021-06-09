@@ -1,0 +1,18 @@
+android_app {
+    name: "CrossProfileProvider",
+    // Only compile source java files in this apk.
+    srcs: [
+        "src/**/*.java",
+    ],
+    required: ["privapp_whitelist_org.calyxos.providers.crossprofile"],
+
+    platform_apis: true,
+    certificate: "platform",
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_org.calyxos.providers.crossprofile",
+    sub_dir: "permissions",
+    src: "privapp_whitelist_org.calyxos.providers.crossprofile.xml",
+    filename_from_src: true,
+}
